@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_layout);
-        TextView textView = (TextView)findViewById(R.id.header);
-        textView.setText("Привет из Java");
+        setContentView(R.layout.activity_main);
+  /*      TextView textView = (TextView)findViewById(R.id.header);
+        textView.setText("Привет из Java");*/
 
      /*
       ConstraintLayout constraintLayout = new ConstraintLayout(this);
@@ -30,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
        constraintLayout.addView(textView);
         setContentView(constraintLayout);
         */
+
+
     }
 }
